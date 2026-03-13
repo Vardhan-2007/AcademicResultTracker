@@ -1,0 +1,62 @@
+/* ===== GLOBAL FULL PAGE FIX ===== */
+
+html, body {
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.container-fluid > .row {
+    min-height: 100vh !important;
+}
+
+/* Ensure sidebar full stretch */
+.sidebar {
+    min-height: 100vh !important;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+    height: 100vh;
+    background: linear-gradient(180deg, #4e73df, #1cc88a);
+    padding-top: 20px;
+}
+
+.sidebar a {
+    color: white;
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sidebar a:hover {
+    background: rgba(255,255,255,0.2);
+    border-radius: 8px;
+}
+
+.card-custom {
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.fail-highlight {
+    background-color: #ffcccc !important;
+    font-weight: bold;
+}
