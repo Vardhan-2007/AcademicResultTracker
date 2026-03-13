@@ -373,11 +373,6 @@ Interested in:
 
 ---
 
-# 📜 License
-
-This project is open-source and available under the **MIT License**.
-
----
 
 # 🙌 Acknowledgements
 
@@ -385,3 +380,7 @@ This project is open-source and available under the **MIT License**.
 - Chart.js
 - XAMPP
 - MySQL
+
+## Note
+
+This project was developed as a personal learning project and is shared for educational purposes.
